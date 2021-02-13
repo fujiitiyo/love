@@ -1,0 +1,155 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 50px;
+  background-color: rgb(240, 110, 171);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  font-family: YouYuan;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.header-left img {
+  height: 50px;
+  width: 70px;
+  float: left;
+}
+
+.header-left p {
+  float: left;
+  color: white;
+  padding-left: 15px;
+}
+
+.header-right {
+  float: right;
+}
+
+header a {
+  display: inline-block;
+  line-height: 50px;
+  padding: 0 20px;
+  background-color: rgba(250, 185, 221, 0.7);
+  margin: 0 5px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+header a:hover {
+  background-color: rgba(250, 185, 221, 1);
+}
+
+.head-wrapper {
+  height: 1350px;
+  text-align: center;
+  color: rgb(44, 57, 70);
+}
+
+.head-wrapper h1 {
+  letter-spacing: 5px;
+  font-size: 60px;
+  font-family: "Brush Script MT";
+}
+
+.head-wrapper h2 {
+  letter-spacing: 2px;
+  font-size: 50px;
+  font-family: Lisu;
+}
+
+.head-wrapper p {
+  padding: 5px 0;
+}
+
+.backone {
+  opacity: 0.3;
+  position: relative;
+  width: 95%;
+}
+
+.upone {
+ position: absolute;
+ top: 200px;
+ width: 100%;
+ opacity: 0.8;
+}
+
+.parts {
+  position: absolute;
+  top: 735px;
+  width: 100%;
+  border-top: 5px solid pink;
+}
+
+.part {
+  width: 25%;
+  float: left;
+}
+
+.part img {
+  width: 80%;
+  height: 300px;
+}
+
+.part a {
+  display: block;
+  color: rgb(247, 84, 111);
+}
+
+.infor-wrapper {
+  position: absolute;
+  top: 1130px;
+  left: 100px;
+  
+}
+
+.infor-left {
+  float: left;
+}
+
+textarea {
+  height: 100px;
+  width: 350px;
+  border: none;
+  color: rgb(247, 84, 111);
+  border: 5px solid pink;
+  padding: 10px 20px;
+}
+
+footer {
+  height: 150px;
+  background-color: rgba(247, 221, 220, 0.7);
+  color: rgb(247, 84, 111);
+}
+
+footer img {
+  height: 150px;
+  width: 150px;
+  float: left;
+}
+
+.foot-right {
+  float: right;
+}
+
+.foot-right li {
+  padding: 12px 0;
+  font-size: 12px;
+}
